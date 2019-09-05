@@ -1,0 +1,41 @@
+algoritmo #1
+
+s=inicializar;
+*asumiendo que la pila se esta llenando sin el usuario*
+
+if(empty(s))
+cout<<error<<endl;
+
+else{
+pop(s)}
+if(empty(s)){
+cout<<error<<endl;
+else{
+*sacando el segundo elemento*
+o=pop(s)}
+*mostrandolo*
+cout<<o<<endl;
+
+
+algoritmo #2
+
+
+s=inicializar
+
+if (empty(s)){
+cout<<error<<endl;
+else{
+*sacando el primer elemento*
+o=pop(s);
+if(empty(s)){
+cout<<error<<endl;
+}
+else{
+*sacando el segundo elemento*
+p=pop(s);}
+*mostrando el segundo elemento*
+cout<<p<<endl;
+*guardando el segundo elemento*
+push(s,p);
+*guardando el primer elemento*
+push(s,o);
