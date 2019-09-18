@@ -24,9 +24,9 @@ int conteo (int num, int acum){
     int main (){
 
        //ejercicio #8
-       int nummain;
+       int nummain=0;
        cout<<"ejercicio 8, tomar un numero y mostrarlo de acuerdo a lo estipulado en la guia"<<endl;
-       cout<<"digite el numero: "<<endl;
+       cout<<"digite el numero: ";
        cin>>nummain;
     int r=conteo(nummain, 1);
 
