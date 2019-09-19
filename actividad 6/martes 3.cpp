@@ -25,7 +25,7 @@ int main (){
             sup= mitad;
             mitad=(inf+sup)/2;
         }
-        if (numeros[mitad]<numero){
+        else if (numeros[mitad]<numero){
             inf = mitad;
             mitad= (inf+sup)/2;
         }
