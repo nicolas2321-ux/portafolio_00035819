@@ -1,0 +1,17 @@
+expresion #1: A-B/(C*D$E)
+parentesis: A-B/(CDE$*)
+division: A-BCDE$*/
+resta: ABCDE$*/-
+
+
+
+
+
+
+
+
+expresion #2: ((A+B)*C-(D-E))$(F+G)
+parentesis: ((AB+)*C-(DE-))$(FG+)
+potencia: ((AB+)*C-(DE-))FG+$
+multiplicacion: ((AB+C*-(DE-))FG+$
+resta: AB+C*DE--FG+$
